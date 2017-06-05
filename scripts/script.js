@@ -8,6 +8,8 @@ $('#first').mouseout(function(){
     $('#first p').css("visibility", "hidden")
 });
 
+
+
 $('#first').click(){
     if($('#recipe').css("display")=="block"){
         $('#recipe').css("display", "none");
@@ -15,4 +17,4 @@ $('#first').click(){
     else{
           $('#recipe').css("display", "block");
     }
-})
+});
