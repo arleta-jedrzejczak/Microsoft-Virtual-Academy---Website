@@ -36,7 +36,6 @@ $('#second').click(function(){
     }
 });
 
-
 $('#third').mouseover(function(){
     $('#third img').css("opacity", 0.2);
     $('#third p').css("visibility", "visible")
