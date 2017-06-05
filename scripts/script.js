@@ -10,7 +10,7 @@ $('#first').mouseout(function(){
 
 
 
-$('#first').click(){
+$('#first').click(function(){
     if($('#recipe').css("display")=="block"){
         $('#recipe').css("display", "none");
     }
